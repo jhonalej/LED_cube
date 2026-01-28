@@ -19,15 +19,17 @@ The project was designed with modular animation logic to allow new patterns to b
 
 ### Images
 
-Project images will be added in the following directory:
+Current build photos:
 
-docs/images/
+![Old circuit build](media/old_circuit.jpeg)
+![New circuit build](media/new_circuit%20.jpeg)
+![Side view](media/side%20view.jpeg)
 
 ### Videos
 
-Demonstration videos or GIFs will be added in:
+Demo GIF:
 
-docs/videos/
+![LED cube demo](media/vid.gif)
 
 ---
 
@@ -81,6 +83,7 @@ This process creates the illusion of a fully lit three-dimensional display.
 │   ├── led_cube.ino
 │   ├── animations/
 │   └── drivers/
+├── media/
 ├── docs/
 │   ├── images/
 │   ├── videos/
