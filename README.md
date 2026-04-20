@@ -13,7 +13,6 @@ The LED cube is refreshed using rapid layer multiplexing. Each horizontal layer 
 
 The project was designed with modular animation logic to allow new patterns to be added easily.
 
----
 
 ## Demonstration
 
@@ -42,7 +41,6 @@ Demo GIF:
 - Push-button animation selection
 - Expandable animation framework
 
----
 
 ## Hardware
 
@@ -74,23 +72,7 @@ docs/schematic/led-cube-schematic.png
 
 This process creates the illusion of a fully lit three-dimensional display.
 
----
 
-## Repository Structure
-
-.
-├── code/
-│   ├── led_cube.ino
-│   ├── animations/
-│   └── drivers/
-├── media/
-├── docs/
-│   ├── images/
-│   ├── videos/
-│   └── schematic/
-└── README.md
-
----
 
 ## Getting Started
 
@@ -104,7 +86,6 @@ This process creates the illusion of a fully lit three-dimensional display.
 
 Because of the large number of LEDs, current draw can be significant. An external power supply is recommended. Ensure that the Arduino ground and external supply ground are connected.
 
----
 
 ## Controls
 
@@ -112,7 +93,6 @@ Because of the large number of LEDs, current draw can be significant. An externa
 
 Additional control features can be implemented in software if desired.
 
----
 
 ## Animations
 
@@ -124,7 +104,6 @@ Examples of animations included in this project:
 - Random sparkle effects
 - Wave propagation patterns
 
----
 
 ## Customization
 
@@ -140,7 +119,6 @@ Examples of animations included in this project:
 - Optimize SPI speed for smoother animations
 - Modify animation frame delays as needed
 
----
 
 ## Troubleshooting
 
@@ -149,13 +127,11 @@ Examples of animations included in this project:
 - Incorrect patterns: inspect shift register wiring and latch timing
 - Non-functional layer: test transistor drivers and connections
 
----
 
 ## Lessons Learned
 
 This section documents design challenges, timing considerations, and improvements identified during development.
 
----
 
 ## Future Improvements
 
@@ -164,15 +140,6 @@ This section documents design challenges, timing considerations, and improvement
 - Sound-reactive animation modes
 - Expanded animation library
 
----
-
-## License
-
-Specify a license for this project (e.g., MIT or GPLv3).  
-Include a LICENSE file in the repository if applicable.
-
----
-
 ## Author
 
-Developed by Your Name
+Developed by Jhon Ramirez
